@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "task1": {
+    "ecosphere": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/task1",
+            "outputPath": "dist/ecosphere",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "task1:build:production"
+              "buildTarget": "ecosphere:build:production"
             },
             "development": {
-              "buildTarget": "task1:build:development"
+              "buildTarget": "ecosphere:build:development"
             }
           },
           "defaultConfiguration": "development"
