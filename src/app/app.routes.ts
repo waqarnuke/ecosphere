@@ -30,6 +30,7 @@ import { QmsPolicyComponent } from './features/policies/qms-policy/qms-policy.co
 import { ModernSlaveryPolicyComponent } from './features/policies/modern-slavery-policy/modern-slavery-policy.component';
 import { KnowMeComponent } from './features/know-me/know-me.component';
 import { MainPolicyComponent } from './features/policies/main-policy/main-policy.component';
+import { RuggedAppsAIComponent } from './features/service/rugged-apps-ai/rugged-apps-ai.component';
 
 
 export const routes: Routes = [
@@ -44,6 +45,7 @@ export const routes: Routes = [
       {path:'processdevelopment', component:ProcessdevelopmentComponent},
       {path:'specialisedconsultancy', component:SpecialisedconsultancyComponent},
       {path:'webd', component:WebdComponent},
+      {path:'rugged-apps-ai', component: RuggedAppsAIComponent}
     ]
   },
   {path:'about', component:AboutComponent},
