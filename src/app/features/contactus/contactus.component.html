@@ -114,42 +114,41 @@
     </div>
 
     <div class="col-md-6">
-      <form>
-        <div class="mb-3">
-          <label class="form-label">Name</label>
-          <input type="text" class="form-control" placeholder="Enter your name" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Email</label>
-          <input type="email" class="form-control" placeholder="Enter your email" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Phone No</label>
-          <input type="text" class="form-control" placeholder="Enter your phone number" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Subject</label>
-          <input type="text" class="form-control" placeholder="Subject" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Service Types</label>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Select </option>
-            <option value="1">AI Consultancy</option>
-            <option value="2">AI & Cloud Solutions</option>
-            <option value="3">Cyber Security</option>
-            <option value="4">Sustainability / Carbon Reduction Plan</option>
-            <option value="5">On boarding Public Sector Framework / Social Values</option>
-            <option value="6">Financial Insights</option>
-            <option value="6">Others</option>
-
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Message (optional)</label>
-          <textarea class="form-control" rows="4" placeholder="Type your message here..."></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary w-100">Submit</button>
-      </form>
+<form (ngSubmit)="sendEmail($event)" #contactForm="ngForm">
+  <div class="mb-3">
+    <label class="form-label">Name</label>
+    <input type="text" name="name" class="form-control" placeholder="Enter your name" required />
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="email" name="email" class="form-control" placeholder="Enter your email" required />
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Phone No</label>
+    <input type="text" name="phone" class="form-control" placeholder="Enter your phone number" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Subject</label>
+    <input type="text" name="subject" class="form-control" placeholder="Subject" />
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Service Types</label>
+    <select class="form-select" name="service_type" required>
+      <option value="" disabled selected>Select</option>
+      <option value="AI Consultancy">AI Consultancy</option>
+      <option value="AI & Cloud Solutions">AI & Cloud Solutions</option>
+      <option value="Cyber Security">Cyber Security</option>
+      <option value="Sustainability">Sustainability / Carbon Reduction Plan</option>
+      <option value="Public Sector">Public Sector Framework / Social Values</option>
+      <option value="Financial Insights">Financial Insights</option>
+      <option value="Others">Others</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Message (optional)</label>
+    <textarea name="message" class="form-control" rows="4" placeholder="Type your message here..."></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary w-100">Submit</button>
+</form>
     </div>
   </div>
