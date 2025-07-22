@@ -4,6 +4,7 @@
 }
 
 .carousel-background {
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,6 +47,7 @@
 }
 
 .section-heading {
+  color: #100f0f;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
@@ -125,4 +127,64 @@
     font-size: 15px;
     padding: 9px 20px;
   }
+}
+.bg-tealblue {
+  background: linear-gradient(to bottom right, #6cede7, #e6c690);
+  color: white;
+}
+
+.bg-bluegradient {
+  background: linear-gradient(to bottom right, #9cb9d7, #05238e);
+  color: white;
+}
+
+.bg-cyanocean {
+  background: linear-gradient(to bottom right, #598b81, #e7f215);
+  color: white;
+}
+
+.bg-lightblue {
+  background: linear-gradient(to bottom right, #74ebd5, #404d85);
+  color: white;
+}
+
+.bg-orangegold {
+  background: linear-gradient(to bottom right, #df9b49, #d3c788);
+  color: white;
+}
+
+.bg-cyberwave {
+  background: linear-gradient(to bottom right, #4b96ab, #56a2ff);
+  color: white;
+}
+
+.bg-greensmooth {
+  background: linear-gradient(to bottom right, #0ac2b3, #47be75);
+  color: white;
+}
+
+.bg-violetrose {
+  background: linear-gradient(to bottom right, #7ea397, #01493e);
+  color: white;
+}
+
+.bg-deepocean {
+  background: linear-gradient(to bottom right, #c66c26, #d49e20);
+  color: white;
+}
+
+/* Common white text rule */
+.service-card a,
+.service-card h3,
+.service-card h4,
+.service-card p {
+  color: white;
+}
+
+
+
+.full-services-section {
+  background: linear-gradient(to bottom right, #ffffff, #f0f4f7); /* Soft modern gradient */
+
+  margin: 0;
 }
