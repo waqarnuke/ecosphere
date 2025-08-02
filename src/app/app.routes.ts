@@ -31,6 +31,7 @@ import { ModernSlaveryPolicyComponent } from './features/policies/modern-slavery
 import { KnowMeComponent } from './features/know-me/know-me.component';
 import { MainPolicyComponent } from './features/policies/main-policy/main-policy.component';
 import { RuggedAppsAIComponent } from './features/service/rugged-apps-ai/rugged-apps-ai.component';
+import { PartnerShipsComponent } from './features/service/partner-ships/partner-ships.component';
 
 
 export const routes: Routes = [
@@ -45,7 +46,8 @@ export const routes: Routes = [
       {path:'processdevelopment', component:ProcessdevelopmentComponent},
       {path:'specialisedconsultancy', component:SpecialisedconsultancyComponent},
       {path:'webd', component:WebdComponent},
-      {path:'rugged-apps-ai', component: RuggedAppsAIComponent}
+      {path:'rugged-apps-ai', component: RuggedAppsAIComponent},
+      {path:'partner-ships', component:PartnerShipsComponent}
     ]
   },
   {path:'about', component:AboutComponent},
