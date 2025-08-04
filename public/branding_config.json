@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "companyName": "Acme Global Solutions",
+  "logoUrl": "https://placehold.co/100x100/512DA8/FFFFFF?text=APP+LOGO",
+  "themeName": "clientA",
+  "theme": {
+    "primaryColor": "#512DA8",
+    "secondaryColor": "#9575CD",
+    "backgroundColor": "#E8EAF6",
+    "cardColor": "#FFFFFF",
+    "textColor": "#263238",
+  }
+}
