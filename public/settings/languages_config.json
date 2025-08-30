@@ -1,5 +1,16 @@
 [
-  {"code": "en", "nameKey": "English"},
-  {"code": "es", "nameKey": "Espanol"},
-  {"code": "fr", "nameKey": "French"}
+  { "code": "en", "name": "English", "direction": "" },
+  { "code": "ar", "name": "عربي", "direction": "rtl" },
+  { "code": "es", "name": "Español", "direction": "" },
+  { "code": "fr", "name": "Français" , "direction": ""},
+  { "code": "de", "name": "Deutsch" , "direction": ""},
+  { "code": "it", "name": "Italiano" , "direction": ""},
+  { "code": "pt", "name": "Português" , "direction": ""},
+  { "code": "zh-Hans", "name": "简体中文" , "direction": ""},
+  { "code": "ja", "name": "日本語" , "direction": ""},
+  { "code": "ko", "name": "한국어" , "direction": ""},
+  { "code": "ko2", "name": "日本語 - 2" , "direction": ""},
+  { "code": "ko3", "name": "한국어 - 3" , "direction": ""},
+  { "code": "extraLang1", "name": "extra lang 1" , "direction": ""},
+  { "code": "extraLang2", "name": "extra lang 2" , "direction": ""}
 ]
