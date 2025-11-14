@@ -172,6 +172,18 @@
   background: linear-gradient(to bottom right, #c66c26, #d49e20);
   color: white;
 }
+.bg-agri {
+  background: linear-gradient(135deg, #bfd9c0, #8BC34A) !important;
+}
+/* Environmental */
+.bg-env {
+  background: linear-gradient(135deg, #84a9c8, #00BCD4) !important;
+}
+
+/* Land */
+.bg-land {
+  background: linear-gradient(135deg, #c99548, #4d3818) !important;
+}
 
 /* Common white text rule */
 .service-card a,
@@ -188,3 +200,5 @@
 
   margin: 0;
 }
+
+
