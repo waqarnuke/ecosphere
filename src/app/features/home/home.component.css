@@ -200,12 +200,12 @@
 
   margin: 0;
 }
-/* Mobile fix for drone image */
 @media (max-width: 768px) {
-  .drone-img {
-    object-position: top;  /* Image top part always visible */
+  .carousel-item img {
+    object-position: top center !important;
   }
 }
+
 
 
 
